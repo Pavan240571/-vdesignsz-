@@ -1,0 +1,63 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.bg-gradient {
+  background: linear-gradient(to right, #1c1c1c, #2d2d2d);
+}
+
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(255,255,255,0.1);
+}
+
+.btn-primary {
+  background-color: #ff5c00;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #e64e00;
+}
+
+.tp-hero-title {
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 0.9;
+    margin-bottom: 0;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--tp-common-white);
+}
+
+.tp-hero-text{
+   color: var(--tp-common-white) !important;
+}
+
+.services-slider {
+  width: 100%;
+  background-color: #FF5722;
+}
+
+.swiper-slide {
+  white-space: nowrap;
+  width: auto !important;
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--tp-common-white);
+  display: inline-block;
+}
+.tp-section-subtitle {
+font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    display: inline-block;
+    text-transform: uppercase;
+color: var(--tp-common-white);
+}
